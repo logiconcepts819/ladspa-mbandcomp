@@ -1,0 +1,4 @@
+PLATFORM_CFLAGS = -fPIC -DPIC -nostartfiles
+PLATFORM_EXT = .so
+RES_FILE =
+include generic.mk

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if test -z "$CC"; then
+	CC=i686-w64-mingw32-gcc
+fi
+
+if test -z "$WINDRES"; then
+	WINDRES=i686-w64-mingw32-windres
+fi
+
+make CC="$CC" WINDRES="$WINDRES" -f Makefile.win "$@"

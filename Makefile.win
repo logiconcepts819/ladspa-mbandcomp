@@ -1,0 +1,12 @@
+PLATFORM_CFLAGS =
+PLATFORM_EXT = .dll
+RC_FILE = mbandcomp.rc
+RES_FILE = mbandcomp.res
+
+WINDRES = windres
+WINDRES_FLAGS = -O coff
+
+include generic.mk
+
+$(RES_FILE): $(RC_FILE)
+	$(WINDRES) $(WINDRES_FLAGS) $(RC_FILE) -o $(RES_FILE)
