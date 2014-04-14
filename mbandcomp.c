@@ -647,8 +647,7 @@ static void runMbandComp( LADSPA_Handle Instance, unsigned long SampleCount )
             }
         }
 
-        /* Finally, recombine the samples into one, while normalizing
-         * the samples based on the filter mode */
+        /* Finally, recombine the samples into one */
         for( int j = 0; j < 2; j++ )
         {
             buf_array[5][j] = buf_array[1][j] + buf_array[2][j]
