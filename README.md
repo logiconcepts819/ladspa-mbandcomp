@@ -7,15 +7,13 @@ A LADSPA plugin for multiband compression, which uses Linkwitz-Riley filters for
 
 ##MinGW in Windows
 
-If you wish to build a 64-bit plugin, execute the following in an msys shell:
+Execute the following in a MinGW shell:
 
 ```
 make -f Makefile.win
 ```
-If you wish to build a 32-bit plugin, execute the following:
-```
-make -f Makefile.win32
-```
+If you wish to build a 64-bit plugin, use the 64-bit MinGW shell.  If you wish
+to build a 32-bit plugin, use the 32-bit MinGW shell.
 
 ##MinGW in Linux
 
