@@ -1113,11 +1113,11 @@ BOOL APIENTRY DllMain( HANDLE hModule, DWORD ul_reason_for_call,
     return TRUE;
 }
 #else
-void _init( void )
+void __attribute__((constructor)) init( void )
 {
     my_init();
 }
-void _fini( void )
+void __attribute__((destructor)) fini( void )
 {
     my_fini();
 }
