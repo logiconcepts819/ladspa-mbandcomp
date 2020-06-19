@@ -3,9 +3,9 @@ ladspa-mbandcomp
 
 A LADSPA plugin for multiband compression, which uses Linkwitz-Riley filters for the frequency splits.  This is an extension of my compressor plugin implementation in VLC.
 
-#Building ladspa-mbandcomp
+# Building ladspa-mbandcomp
 
-##MinGW in Windows
+## MinGW in Windows
 
 Execute the following in a MinGW shell:
 
@@ -15,7 +15,7 @@ make -f Makefile.win
 If you wish to build a 64-bit plugin, use the 64-bit MinGW shell.  If you wish
 to build a 32-bit plugin, use the 32-bit MinGW shell.
 
-##MinGW in Linux
+## MinGW in Linux
 
 If you wish to build a 64-bit plugin, execute the following in a terminal:
 ```
@@ -33,16 +33,16 @@ would run
 CC=i586-mingw32msvc-gcc WINDRES=i586-mingw32msvc-windres ./win32make
 ```
 
-##Linux
+## Linux
 
 Execute the following in a terminal:
 ```
 make -f Makefile.unix
 ```
 
-#Installation
+# Installation
 
-##Windows
+## Windows
 
 Set the LADSPA_PATH environment variable with all possible paths you wish to
 designate for LADSPA plugins. For example, on Windows 64-bit systems, one may
@@ -54,7 +54,7 @@ C:\Program Files\LADSPA;C:\Program Files (x86)\LADSPA
 After setting the environment variable, copy the compiled DLL to the
 appropriate location(s).
 
-##Linux
+## Linux
 
 Copy the compiled .so to a location that is recognized by LADSPA hosts such as
 /usr/lib/ladspa or /usr/local/lib/ladspa.
