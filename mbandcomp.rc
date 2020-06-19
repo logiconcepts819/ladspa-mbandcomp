@@ -26,7 +26,7 @@ BEGIN
             VALUE "FileDescription",  "LADSPA Filter Plugin\0"
             VALUE "FileVersion",      VER_VERSION_STR
             VALUE "InternalName",     "Ron's Multiband Compressor\0"
-            VALUE "LegalCopyright",   "Copyright \251 2013 Ron Wright\0"
+            VALUE "LegalCopyright",   "Copyright \251 2013-2020 Ron Wright\0"
             VALUE "LegalTrademarks1", "\0"
             VALUE "LegalTrademarks2", "\0"
             VALUE "OriginalFilename", "mbandcomp.dll\0"

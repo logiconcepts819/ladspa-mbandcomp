@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2013 Ron Wright.
+ * Copyright (C) 2013-2020 Ron Wright.
  *
  * This file is part of Ron's Multiband Compressor.
  *
